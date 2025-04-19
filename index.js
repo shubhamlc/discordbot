@@ -18,7 +18,6 @@ const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
 const CLIENT_ID = '1360812237656162484'; // ← your actual Bot Application ID
 const GUILD_ID = '871000301912621088'; // ← your server ID where bot is added
 
-
 (async () => {
   try {
     console.log('🔁 Registering slash commands...');
